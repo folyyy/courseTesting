@@ -57,7 +57,7 @@ void slovar::counter_plus(QString word){
 
 void MainWindow::on_buildDictionary_clicked()
 {
-        QFile file("F://hey/wow.txt");
+        QFile file("C://Users/Alex/Documents/github/courseTesting/wow.txt");
             // Проверка на открытие файла
             if (!file.open(QIODevice::ReadOnly | QIODevice::Text)) {
                 qDebug() << "File unable to open" ;
@@ -83,7 +83,7 @@ void MainWindow::on_buildDictionary_clicked()
 
 void MainWindow::on_putDictionaryInFile_clicked()
 {
-    QFile file1("F://hey/ogo.txt");
+    QFile file1("C://Users/Alex/Documents/github/courseTesting/ogo.txt");
     if (file1.open(QIODevice::ReadWrite)) {
         QTextStream out(&file1);
         out.setCodec("UTF-8");

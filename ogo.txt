@@ -36,4 +36,5 @@ the, 6
 to, 2
 way, 1
 with, 2
-zombie, 3
+zoe, 1
+zombie, 2
