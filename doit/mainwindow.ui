@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>741</width>
-    <height>545</height>
+    <width>745</width>
+    <height>568</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -273,7 +273,7 @@
           <property name="font">
            <font>
             <family>Arial</family>
-            <pointsize>9</pointsize>
+            <pointsize>8</pointsize>
             <weight>75</weight>
             <italic>true</italic>
             <bold>true</bold>
